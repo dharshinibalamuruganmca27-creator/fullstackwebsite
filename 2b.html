@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="maha.css">
+
+  <!-- Internal CSS for this page only -->
+  <style>
+    h2 {
+      text-align: center;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="2a.html">Home</a></li>
+        <li><a href="2b.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Student Event Registration</h2>
+    <!-- action moves to payment page after submit -->
+    <form action="pay.html" method="get">
+      <label for="name">Student Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="regno">Register Number</label>
+      <input type="text" id="regno" name="regno" required>
+
+      <label for="dept">Department</label>
+      <input type="text" id="dept" name="dept" required>
+
+      <label for="event">Select Event</label>
+      <select id="event" name="event" required>
+        <option value="">-- Choose Event --</option>
+        <option value="Coding Contest">Coding Contest</option>
+        <option value="Project Expo">Project Expo</option>
+        <option value="Robotics Workshop">Robotics Workshop</option>
+      </select>
+
+      <button type="submit">Next: Payment</button>
+    </form>
+  </div>
+</body>
+</html>
