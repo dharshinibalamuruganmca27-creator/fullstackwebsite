@@ -1,0 +1,32 @@
+Step 1: Project Architecture & Navigation Setup
+  
+•	Create a consistent navigation system across all pages using a <header> and <nav> block.
+•	Establish a file naming convention: 2a.html (Home), 2b.html (Registration), and 2c.html through 2e.html (Event Details).
+  
+Step 2: Developing the Home Page (2a.html)
+  
+•	Hero Section: Create a central landing area with a "Call to Action" button to encourage registration.
+•	Event Gallery: Implement a grid layout (event-grid) using clickable cards. Each card contains an image, a title, and an overlay effect that links to specific event detail pages
+  
+Step 3: Creating the Registration Interface (2b.html)
+  
+•	Build a student registration form using the <form> tag.
+•	Include essential input fields: text for Name and Register Number, and a <select> dropdown menu to allow students to choose between specific events (Coding, Expo, or Workshop).
+•	Set the form action to pay.html to simulate a transition to a payment gateway.
+  
+Step 4: Designing Event Detail Pages (2c.html, 2d.html, 2e.html)
+  
+•	Workshops (2c.html): Focus on a hands-on learning description with a large featured image.
+•	Coding Contest (2d.html): Create an info-list section highlighting the prize pool, venue, and technical requirements.
+•	Project Expo (2e.html): Design a layout focused on innovation and exhibition details, using a distinct green color scheme for the registration button to differentiate the section.
+  
+Step 5: Implementing CSS Styling
+  
+•	External Styling: Link a global stylesheet (maha.css) to maintain visual consistency (typography, container widths, and button styles).
+•	Internal Styling: Use page-specific <style> tags to handle unique layouts, such as the detail-box for event information and the overlay for gallery images.
+•	Image Integration: Use high-resolution external image URLs via Unsplash to represent the technical nature of the events.
+  
+Step 6: Interlinking and Validation
+  
+•	Ensure "Back to Home" links are present on all sub-pages for easy navigation.
+•	Validate form fields using the required attribute to ensure data integrity during registration.
